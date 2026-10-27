@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* using flexbox for horizontal layout of the navbar */
+    background-color: lightgrey;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background color on hover */
+ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Create an active class, highlight which link corresponds to the 
+current page */
+ul li a.active {
+    background-color: #4CAF50;
+}
